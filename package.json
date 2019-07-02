@@ -1,0 +1,17 @@
+{
+  "name": "100daysofcode_bot",
+  "version": "1.0.0",
+  "description": "a bot that retweets #100DaysofCode tweets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mon": "nodemon index.js"
+  },
+  "author": "Dallas Oliver",
+  "license": "ISC",
+  "dependencies": {
+    "nedb": "^1.8.0",
+    "nodemon": "^1.19.1",
+    "twit": "^2.2.11"
+  }
+}
